@@ -61,7 +61,7 @@ With the ```customer's ID``` as the primary key, the ```XLOOKUP``` function was 
 
 ```=XLOOKUP(C5,customers!$A$1:$A$1001,customers!$I$1:$I$1001,0)```
 
-The ```XLOOKUP`` function was also used to populate the coffee type, size, roast type, and unit price from the products sheet with the product ID as the primary key.
+The ```XLOOKUP``` function was also used to populate the coffee type, size, roast type, and unit price from the products sheet with the product ID as the primary key.
 
 ***Coffee type***:
 
@@ -85,11 +85,11 @@ This formula multiplies the values in column ```L (quantity of units sold)``` by
 
 **DATA TRANSFORMATION**
 
-For easy interpretation, I transformed the abbreviations ```Rob, Exc, Ara, and Lib```, which are coffee types to ```Robusta, Excelds, Arabia, and Liberica```, respectively, using the following formula: 
+For easy interpretation, I transformed the abbreviations Rob, Exc, Ara, and Lib, which are coffee types to Robusta, Excelds, Arabia, and Liberica, respectively, using the following formula: 
 
 ```=IF(I2="Rob","Robusta",IF(I2="Exc","Excelds",IF(I2="Ara","Arabia",IF(I2="Lib","Liberica","")))) ```
 
-and ```M, L, and D```, which are roast type, to ```Medium, Light, and Dark``` using the following formula: 
+and M, L, and D, which are roast type, to Medium, Light, and Dark using the following formula: 
 
 ```=IF(J2="L","Light",IF(J2="M","Medium",IF(J2="D","Dark","")))```.
 
@@ -164,7 +164,7 @@ First of all, ```sales``` are compared from ```2019 to 2022``` for the ```differ
 
 - Sales tend to peak during certain months across all four coffee types. There are spikes in sales around February-March and August-September in each year.
 
-These peaks coincide with periods of increased coffee consumption due to seasonal factors. For instance, in many regions, there could be a spike in coffee consumption during the colder winter months (February- March) as people seek warm beverages. Similarly, the late summer months (August-September) might see heightened coffee consumption as people return to their routines after vacations or seek refreshments in warmer weather.
+  These peaks coincide with periods of increased coffee consumption due to seasonal factors. For instance, in many regions, there could be a spike in coffee consumption during the colder winter months (February- March) as people seek warm beverages. Similarly, the late summer months (August-September) might see heightened coffee consumption as people return to their routines after vacations or seek refreshments in warmer weather.
 
 - Sales appear to dip during certain months as well, in May and November. In May, consumers might be more focused on outdoor activities as the weather improves, leading to less indoor coffee consumption. In November, consumers might be more focused on holiday preparations and spending, diverting funds away from discretionary purchases like coffee.
 
@@ -216,40 +216,40 @@ On the dashboard, I implemented interactive features to enhance data exploration
 
 - I added a *timeline filter* component, allowing stakeholders to navigate through different periods of the year dynamically.
 
-Users can select specific time ranges or periods of interest, such as months, quarters, or years, to focus on relevant data subsets. 
+  Users can select specific time ranges or periods of interest, such as months, quarters, or years, to focus on relevant data subsets. 
 
-This feature enables stakeholders to track sales trends over time and identify seasonal patterns or fluctuations in coffee consumption.
+  This feature enables stakeholders to track sales trends over time and identify seasonal patterns or fluctuations in coffee consumption.
 Slicers for Roast Type, Size, and Loyalty:
 
 - Additionally, I incorporated *slicers* for roast type, size, and loyalty, providing stakeholders with further data filtering options.
 
-Stakeholders can refine their analysis by selecting specific roast types (light, medium, dark), coffee sizes, or customer loyalty status (yes, no). 
+  Stakeholders can refine their analysis by selecting specific roast types (light, medium, dark), coffee sizes, or customer loyalty status (yes, no). 
 
-These slicers will enable stakeholders to segment the data based on different product attributes or customer characteristics, facilitating deeper insights into sales performance and consumer preferences. 
+  These slicers will enable stakeholders to segment the data based on different product attributes or customer characteristics, facilitating deeper insights into sales performance and consumer preferences. 
 
-By adjusting these slicers, users can explore how sales vary across different product categories or customer segments, helping inform strategic decision-making and marketing efforts.
+  By adjusting these slicers, users can explore how sales vary across different product categories or customer segments, helping inform strategic decision-making and marketing efforts.
 
 **ACT**
 
 - ***Expand Marketing Efforts in the United Kingdom***
 
-Given the relatively lower sales figures in the United Kingdom compared to Ireland and the United States, the company could focus on expanding its marketing efforts in the UK market. 
+  Given the relatively lower sales figures in the United Kingdom compared to Ireland and the United States, the company could focus on expanding its marketing efforts in the UK market. 
 
-This could include targeted advertising campaigns, promotions, and partnerships with local cafes and retailers to increase brand visibility and customer engagement. By raising awareness and generating excitement around its coffee products, the company can attract new customers and drive sales growth in the UK.
+  This could include targeted advertising campaigns, promotions, and partnerships with local cafes and retailers to increase brand visibility and customer engagement. By raising awareness and generating excitement around its coffee products, the company can attract new customers and drive sales growth in the UK.
 
 - ***Introduce Specialty Coffee Offerings in Ireland***
 
-With Ireland experiencing a cultural shift towards embracing coffee culture and a growing demand for specialty coffee beverages, the company could capitalize on this trend by introducing new specialty coffee offerings tailored to the Irish market. 
+  With Ireland experiencing a cultural shift towards embracing coffee culture and a growing demand for specialty coffee beverages, the company could capitalize on this trend by introducing new specialty coffee offerings tailored to the Irish market. 
 
-This could include unique blends, single-origin coffees, and innovative brewing methods to appeal to discerning coffee enthusiasts. By catering to the evolving preferences of Irish consumers and offering premium coffee experiences, the company can capture a larger share of the market and drive sales expansion in Ireland.
+  This could include unique blends, single-origin coffees, and innovative brewing methods to appeal to discerning coffee enthusiasts. By catering to the evolving preferences of Irish consumers and offering premium coffee experiences, the company can capture a larger share of the market and drive sales expansion in Ireland.
 
 - ***Enhance Customer Loyalty Programs in the United States***
 
-Given the significant sales volume in the United States and the competitive landscape of the coffee market, the company could focus on enhancing its customer loyalty programs to incentivize repeat purchases and foster customer retention. 
+  Given the significant sales volume in the United States and the competitive landscape of the coffee market, the company could focus on enhancing its customer loyalty programs to incentivize repeat purchases and foster customer retention. 
 
-This could involve offering exclusive discounts, rewards, and personalized perks to loyal customers, encouraging them to choose Company X for their coffee needs consistently. 
+  This could involve offering exclusive discounts, rewards, and personalized perks to loyal customers, encouraging them to choose Company X for their coffee needs consistently. 
 
-By building strong relationships with its customer base and rewarding loyalty, the company can increase customer lifetime value, drive repeat business, and ultimately boost sales in the US market.
+  By building strong relationships with its customer base and rewarding loyalty, the company can increase customer lifetime value, drive repeat business, and ultimately boost sales in the US market.
 
 
 
