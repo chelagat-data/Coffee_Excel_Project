@@ -40,11 +40,14 @@ This Excel-based project focuses on analyzing coffee sales data using various Ex
 - Helps identify growth or decline patterns in sales over time.
 
 ## Insights and Observations
-- **Peak Sales:** Highest sales observed during the holiday season and weekends.
-- **Top Products:** Espresso and Latte emerged as the best-selling items.
-- **Regional Trends:** Urban areas showed significantly higher sales compared to rural regions.
+Here are the summarized findings in 4 bullet points:
 
-**Action Plan**
+- **Sales Peaks:** Coffee sales peak around February-March and August-September, likely due to increased coffee consumption during colder months and post-vacation routines.
+- **Sales Dips:** Sales tend to dip in May and November, possibly due to outdoor activities in warmer weather and holiday spending priorities.
+- **Cultural Impact in the UK:** The growth of the coffee market in the UK is somewhat limited by the traditional preference for tea, despite a strong coffee culture and presence of coffee shops.
+- **US Market Growth:** The proliferation of coffee shop chains like Starbucks and Dunkin’, along with local cafes, has significantly contributed to the growth of the coffee market in the US by serving as social hubs and convenient purchase locations.
+
+## Action Plan
 
 - **Expand Marketing Efforts in the UK:** Increase brand visibility and customer engagement through targeted advertising, promotions, and partnerships with local cafes and retailers to boost sales.
 
