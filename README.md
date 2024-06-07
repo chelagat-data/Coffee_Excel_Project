@@ -25,7 +25,7 @@ This Excel-based project focuses on analyzing coffee sales data using various Ex
 ## Dashboard Preview
 ![Screenshot (192)](https://github.com/tabby1307/Coffee_Excel_Project/assets/112205355/5068ada1-695c-452d-8a52-0c4b61719aa0)
 
-## Dashboar Overview
+## Dashboard Overview
 
 ### Coffee Sales per Country
 - Leverages pivot tables and charts to showcase coffee sales across different countries (United States, Ireland, United Kingdom).
@@ -40,7 +40,6 @@ This Excel-based project focuses on analyzing coffee sales data using various Ex
 - Helps identify growth or decline patterns in sales over time.
 
 ## Insights and Observations
-Here are the summarized findings in 4 bullet points:
 
 - **Sales Peaks:** Coffee sales peak around February-March and August-September, likely due to increased coffee consumption during colder months and post-vacation routines.
 - **Sales Dips:** Sales tend to dip in May and November, possibly due to outdoor activities in warmer weather and holiday spending priorities.
